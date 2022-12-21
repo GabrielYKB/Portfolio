@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: white;
+    color: black;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.nav-links{
+    display: flex;
+    gap: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.kahp{
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.kahp h1{
+    font-size: 48px;
+    line-height: 40px;
+    margin-bottom: 8px;
+}
+
+.kahp-img{
+    margin-right: 20px;
+    padding-top: 60px;
+}
+
+.kahp-img img{
+    height: 500px;
+}
+
+.kahp p{
+    color: darkgray;
+}
+
+button{
+    border: solid 1px black;
+    border-radius: 6px;
+    width: 128px;
+    padding: 8px 0px;
+    background: white;
+    font-size: 14px;
+    color: black;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.work h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
+
+.work p{
+    color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.white{
+    margin-top: 5px;
+}
+
+.chips-wrapper{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin: 8px 0px;
+    padding: 0px 12px;
+}
+
+.chip{
+    border-radius: 9999px;
+    padding: 4px 12px;
+    border: solid 1px black;
+    font-size: 14px;
+}
