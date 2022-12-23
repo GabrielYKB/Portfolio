@@ -115,6 +115,7 @@ p{
 
 .chips-wrapper{
     display: flex;
+    flex-wrap: wrap;
     gap: 8px;
     justify-content: center;
     margin: 8px 0px;
